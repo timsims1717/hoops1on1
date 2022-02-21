@@ -1,0 +1,4 @@
+Seems like the best bet so far:
+CC=/home/tim/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi16-clang \
+GOOS=android GOARCH=arm CGO_ENABLED=1\
+go build -v ./cmd/prototype/
